@@ -7,10 +7,10 @@ import {isAuthenticated, isAuthorized} from "./../middlewares/auth.js"
 // import { voucherCodeVerifyController } from "../controllers/voucher/voucherCodeVerify.js";
 // import { getRestaurantVouchersController } from "../controllers/voucher/getrestaurantVouchers.js";
 // import { voucherSearchController } from "../controllers/voucher/voucherSearch.js";
-import { getRestaurantVouchersController } from './../controllers/voucher/getRestaurantVouchers';
-import { voucherSearchController } from './../controllers/voucher/voucherSearch';
-import { voucherCodeVerifyController } from './../controllers/voucher/voucherCodeVerify';
-import { purchaseVoucherController } from './../controllers/voucher/purchaseVoucher';
+import { getRestaurantVouchersController } from './../controllers/voucher/getRestaurantVouchers.js';
+import { voucherSearchController } from './../controllers/voucher/voucherSearch.js';
+import { voucherCodeVerifyController } from './../controllers/voucher/voucherCodeVerify.js';
+import { purchaseVoucherController } from './../controllers/voucher/purchaseVoucher.js';
 
 const router=express.Router();
 
